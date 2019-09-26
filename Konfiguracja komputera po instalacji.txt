@@ -1,0 +1,50 @@
+Instalacja sterowników:
+- Zainstaluj sterowniki do karty graficznej.
+- Zaktualizuj sterowniki do innych podzespo³ów.
+
+Instalacja programów:
+-Google Chrome
+-Mozilla Firefox
+-Instant EyeDropper
+-Adobe Reader
+-Microsoft Office 2007
+-OpenVPN
+-Steam
+-Visual Studio Code
+-ConEmu
+-Lightshot
+-WinRAR
+-7zip
+-Kodeki do filmów K-lite Codec Full
+
+Konfiguracja komputera pod programowanie:
+-Zainstaluj Node.js
+-Zainstaluj GitBash
+-Zainstaluj Ruby 2.4.5-1 x64
+-Pamiêtaj o zainstalowaniu compassa: gem compass
+-Pobierz jdk i wrzuæ do ProgramFiles/Java
+-Przerzuæ Apache do C:
+
+Konfiguracja œrodowiska windows:
+-Edytuj PATH: dodaj wpisy:
+	a) %JAVA_HOME% ze œcie¿k¹ %JAVA_HOME%\bin
+	b) %M2_HOME% ze œcie¿k¹ %M2_HOME%\bin
+	c) C:\Program Files (x86)\Java\jdk1.8.0_80_x86\bin
+-Dodaj nowy rekord:
+	a) %JAVA_HOME% ze œcie¿k¹ C:\Program Files (x86)\Java\jdk1.8.0_80_x86
+	b) %M2_HOME% ze œcie¿k¹ C:\Apache\maven
+
+
+Instalacja mergetoola Meld.
+http://blog.nerdbank.net/2011/10/how-to-get-meld-working-with-git-on.html
+- Pobierz ale Python 3.3.0
+- Pobierz Python 2.6 PyGTK 2.22.6 (plik ze strony wy¿ej)
+- Pobierz Meld'a 3.18
+
+PATH=$PATH:/c/python33
+git config --global merge.tool meld
+git config --global mergetool.meld.path <scie¿ka do meld.exe>
+
+
+
+
